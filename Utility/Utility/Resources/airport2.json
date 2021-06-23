@@ -1,0 +1,50 @@
+
+    {
+      "city": "Arsuz",
+      "country": {
+        "code": "TR",
+        "name": "Turkey"
+      },
+      "geometry": {
+        "coordinates": [
+          35.88043,
+          36.41201
+        ],
+        "type": "Point"
+      },
+      "icao": "TR-0075",
+      "latitude": {
+        "decimal": 36.41201,
+        "degrees": "36° 24' 43.23\" N"
+      },
+      "longitude": {
+        "decimal": 35.88043,
+        "degrees": "35° 52' 49.54\" E"
+      },
+      "name": "Arsuz Heliport",
+      "position": {
+        "base": {
+          "latitude": 36,
+          "longitude": 36
+        },
+        "bearing": {
+          "from": 347,
+          "to": 167
+        },
+        "meters": 47052.8,
+        "miles": 25.4,
+        "orientation": {
+          "from": "NNW",
+          "to": "SSE"
+        }
+      },
+      "status": "Operational",
+      "timezone": {
+        "dst": 0,
+        "gmt": "+0300",
+        "tzid": "Europe/Istanbul",
+        "zone": "+03"
+      },
+      "type": "Heliport"
+    }
+    

@@ -1,0 +1,340 @@
+{
+  "data": [
+    {
+      "barometer": {
+        "hg": 29.88,
+        "hpa": 1012,
+        "kpa": 101.19,
+        "mb": 1011.92
+      },
+      "clouds": [
+        {
+          "code": "CAVOK",
+          "text": "Clear skies"
+        }
+      ],
+      "dewpoint": {
+        "celsius": 4,
+        "fahrenheit": 39
+      },
+      "elevation": {
+        "feet": 2789,
+        "meters": 850
+      },
+      "flight_category": "VFR",
+      "humidity": {
+        "percent": 18
+      },
+      "icao": "LTAT",
+      "observed": "2021-06-18T10:50Z",
+      "position": {
+        "base": "LTAO",
+        "bearing": {
+          "from": 303,
+          "to": 122
+        },
+        "meters": 16848.5,
+        "miles": 9.1
+      },
+      "raw_text": "LTAT 181050Z VRB07KT CAVOK 31/04 Q1012 NOSIG RMK RWY03 32004KT",
+      "station": {
+        "geometry": {
+          "coordinates": [
+            38.091,
+            38.435299
+          ],
+          "type": "Point"
+        },
+        "location": "Malatya, TR",
+        "name": "Malatya Erhaç Airport",
+        "type": "Airport"
+      },
+      "temperature": {
+        "celsius": 31,
+        "fahrenheit": 88
+      },
+      "visibility": {
+        "meters": "10,000+",
+        "meters_float": 9999,
+        "miles": "Greater than 6",
+        "miles_float": 6.21
+      },
+      "wind": {
+        "degrees": 0,
+        "speed_kph": 13,
+        "speed_kts": 7,
+        "speed_mph": 8,
+        "speed_mps": 4
+      }
+    },
+    {
+      "barometer": {
+        "hg": 29.79,
+        "hpa": 1009,
+        "kpa": 100.89,
+        "mb": 1008.92
+      },
+      "clouds": [
+        {
+          "code": "CAVOK",
+          "text": "Clear skies"
+        }
+      ],
+      "dewpoint": {
+        "celsius": 3,
+        "fahrenheit": 37
+      },
+      "elevation": {
+        "feet": 2205,
+        "meters": 672
+      },
+      "flight_category": "VFR",
+      "humidity": {
+        "percent": 15
+      },
+      "icao": "LTCP",
+      "observed": "2021-06-18T10:50Z",
+      "position": {
+        "base": "LTAO",
+        "bearing": {
+          "from": 165,
+          "to": 345
+        },
+        "meters": 71712.3,
+        "miles": 38.7
+      },
+      "raw_text": "LTCP 181050Z 34008KT 290V040 CAVOK 33/03 Q1009",
+      "station": {
+        "geometry": {
+          "coordinates": [
+            38.468899,
+            37.7314
+          ],
+          "type": "Point"
+        },
+        "location": "Adıyaman, TR",
+        "name": "Adıyaman Airport",
+        "type": "Airport"
+      },
+      "temperature": {
+        "celsius": 33,
+        "fahrenheit": 91
+      },
+      "visibility": {
+        "meters": "10,000+",
+        "meters_float": 9999,
+        "miles": "Greater than 6",
+        "miles_float": 6.21
+      },
+      "wind": {
+        "degrees": 340,
+        "speed_kph": 15,
+        "speed_kts": 8,
+        "speed_mph": 9,
+        "speed_mps": 4
+      }
+    },
+    {
+      "barometer": {
+        "hg": 29.85,
+        "hpa": 1011,
+        "kpa": 101.09,
+        "mb": 1010.92
+      },
+      "clouds": [
+        {
+          "code": "CAVOK",
+          "text": "Clear skies"
+        }
+      ],
+      "dewpoint": {
+        "celsius": 4,
+        "fahrenheit": 39
+      },
+      "elevation": {
+        "feet": 2910,
+        "meters": 887
+      },
+      "flight_category": "VFR",
+      "humidity": {
+        "percent": 18
+      },
+      "icao": "LTCA",
+      "observed": "2021-06-18T10:50Z",
+      "position": {
+        "base": "LTAO",
+        "bearing": {
+          "from": 72,
+          "to": 253
+        },
+        "meters": 94596.6,
+        "miles": 51.1
+      },
+      "raw_text": "LTCA 181050Z 27007KT 210V340 CAVOK 31/04 Q1011 NOSIG",
+      "station": {
+        "geometry": {
+          "coordinates": [
+            39.291401,
+            38.606899
+          ],
+          "type": "Point"
+        },
+        "location": "Elazığ, TR",
+        "name": "Elazığ Airport",
+        "type": "Airport"
+      },
+      "temperature": {
+        "celsius": 31,
+        "fahrenheit": 88
+      },
+      "visibility": {
+        "meters": "10,000+",
+        "meters_float": 9999,
+        "miles": "Greater than 6",
+        "miles_float": 6.21
+      },
+      "wind": {
+        "degrees": 270,
+        "speed_kph": 13,
+        "speed_kts": 7,
+        "speed_mph": 8,
+        "speed_mps": 4
+      }
+    },
+    {
+      "barometer": {
+        "hg": 29.85,
+        "hpa": 1011,
+        "kpa": 101.09,
+        "mb": 1010.92
+      },
+      "clouds": [
+        {
+          "code": "CAVOK",
+          "text": "Clear skies"
+        }
+      ],
+      "dewpoint": {
+        "celsius": 3,
+        "fahrenheit": 37
+      },
+      "elevation": {
+        "feet": 2707,
+        "meters": 825
+      },
+      "flight_category": "VFR",
+      "humidity": {
+        "percent": 16
+      },
+      "icao": "LTCS",
+      "observed": "2021-06-18T10:50Z",
+      "position": {
+        "base": "LTAO",
+        "bearing": {
+          "from": 151,
+          "to": 331
+        },
+        "meters": 115605.8,
+        "miles": 62.4
+      },
+      "raw_text": "LTCS 181050Z 28011KT 220V340 CAVOK 32/03 Q1011 RMK RWY22 31007KT 230V030 SKC",
+      "station": {
+        "geometry": {
+          "coordinates": [
+            38.895592,
+            37.445663
+          ],
+          "type": "Point"
+        },
+        "location": "Şanlıurfa, TR",
+        "name": "Şanlıurfa GAP Airport",
+        "type": "Airport"
+      },
+      "temperature": {
+        "celsius": 32,
+        "fahrenheit": 90
+      },
+      "visibility": {
+        "meters": "10,000+",
+        "meters_float": 9999,
+        "miles": "Greater than 6",
+        "miles_float": 6.21
+      },
+      "wind": {
+        "degrees": 280,
+        "speed_kph": 20,
+        "speed_kts": 11,
+        "speed_mph": 13,
+        "speed_mps": 6
+      }
+    },
+    {
+      "barometer": {
+        "hg": 29.79,
+        "hpa": 1009,
+        "kpa": 100.89,
+        "mb": 1008.92
+      },
+      "clouds": [
+        {
+          "code": "CAVOK",
+          "text": "Clear skies"
+        }
+      ],
+      "dewpoint": {
+        "celsius": 12,
+        "fahrenheit": 54
+      },
+      "elevation": {
+        "feet": 1657,
+        "meters": 505
+      },
+      "flight_category": "VFR",
+      "humidity": {
+        "percent": 29
+      },
+      "icao": "LTCN",
+      "observed": "2021-06-18T10:50Z",
+      "position": {
+        "base": "LTAO",
+        "bearing": {
+          "from": 232,
+          "to": 51
+        },
+        "meters": 145641,
+        "miles": 78.6
+      },
+      "raw_text": "LTCN 181050Z 28015KT CAVOK 32/12 Q1009 NOSIG",
+      "station": {
+        "geometry": {
+          "coordinates": [
+            36.953522,
+            37.538826
+          ],
+          "type": "Point"
+        },
+        "location": "Kahramanmaraş, TR",
+        "name": "Kahramanmaraş Airport",
+        "type": "Airport"
+      },
+      "temperature": {
+        "celsius": 32,
+        "fahrenheit": 90
+      },
+      "visibility": {
+        "meters": "10,000+",
+        "meters_float": 9999,
+        "miles": "Greater than 6",
+        "miles_float": 6.21
+      },
+      "wind": {
+        "degrees": 280,
+        "speed_kph": 28,
+        "speed_kts": 15,
+        "speed_mph": 17,
+        "speed_mps": 8
+      }
+    }
+  ],
+  "results": 5
+}

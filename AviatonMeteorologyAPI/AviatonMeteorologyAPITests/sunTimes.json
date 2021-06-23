@@ -1,0 +1,35 @@
+{
+     "geometry": {
+       "coordinates": [
+         38.091,
+         38.435299
+       ],
+       "type": "Point"
+     },
+     "icao": "LTAT",
+     "name": "Malatya Erhaç Airport",
+     "sunrise_sunset": {
+       "local": {
+         "current": "2021-06-18T12:00:05+03:00",
+         "dawn": "04:31:19",
+         "dusk": "20:26:22",
+         "noon": "12:28:43",
+         "sunrise": "05:03:41",
+         "sunset": "19:53:59"
+       },
+       "utc": {
+         "current": "2021-06-18T09:00:05",
+         "dawn": "01:31:19",
+         "dusk": "17:26:22",
+         "noon": "09:28:43",
+         "sunrise": "02:03:41",
+         "sunset": "16:53:59"
+       }
+     },
+     "timezone": {
+       "dst": 0,
+       "gmt": "+0300",
+       "tzid": "Europe/Istanbul",
+       "zone": "+03"
+     }
+   }

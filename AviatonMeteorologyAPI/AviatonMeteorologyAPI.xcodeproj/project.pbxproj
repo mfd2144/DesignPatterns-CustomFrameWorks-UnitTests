@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA37F6E1267BFB4000377A35 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA37F6E0267BFB4000377A35 /* Alamofire.xcframework */; };
+		BA37F6E4267BFD0100377A35 /* Metar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37F6E3267BFD0100377A35 /* Metar.swift */; };
+		BA37F6E9267C037F00377A35 /* Decoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37F6E8267C037F00377A35 /* Decoders.swift */; };
+		BA37F6EB267C070900377A35 /* metar.json in Resources */ = {isa = PBXBuildFile; fileRef = BA37F6EA267C070900377A35 /* metar.json */; };
+		BA709C9D267C87FF00675F13 /* TAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709C9C267C87FF00675F13 /* TAF.swift */; };
+		BA709C9F267C883C00675F13 /* taf.json in Resources */ = {isa = PBXBuildFile; fileRef = BA709C9E267C883C00675F13 /* taf.json */; };
+		BA709CA9267C8E6300675F13 /* airport.json in Resources */ = {isa = PBXBuildFile; fileRef = BA709CA8267C8E6300675F13 /* airport.json */; };
+		BA709CAB267C8EFB00675F13 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CAA267C8EFB00675F13 /* Airport.swift */; };
+		BA709CAD267C984C00675F13 /* SunTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CAC267C984C00675F13 /* SunTimes.swift */; };
+		BA709CB0267C98A000675F13 /* sunTimes.json in Resources */ = {isa = PBXBuildFile; fileRef = BA709CAF267C98A000675F13 /* sunTimes.json */; };
+		BA709CB3267CA1AF00675F13 /* AviationMetarResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CB2267CA1AF00675F13 /* AviationMetarResponses.swift */; };
+		BA709CB5267CA1F600675F13 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CB4267CA1F600675F13 /* Results.swift */; };
+		BA709CB7267CAD4700675F13 /* AviationTafService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CB6267CAD4700675F13 /* AviationTafService.swift */; };
+		BA709CB9267CB7D000675F13 /* metars.json in Resources */ = {isa = PBXBuildFile; fileRef = BA709CB8267CB7D000675F13 /* metars.json */; };
+		BA709CBE267CCCF500675F13 /* AviationTafResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CBD267CCCF500675F13 /* AviationTafResponses.swift */; };
+		BA709CC0267CCD2E00675F13 /* AviationSunTimesResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CBF267CCD2E00675F13 /* AviationSunTimesResponses.swift */; };
+		BA709CC2267CCD4700675F13 /* AviationAirportResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CC1267CCD4700675F13 /* AviationAirportResponses.swift */; };
+		BA709CC4267CD52800675F13 /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CC3267CD52800675F13 /* RequestProvider.swift */; };
+		BA709CC6267CD83500675F13 /* ResultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CC5267CD83500675F13 /* ResultError.swift */; };
+		BA709CC8267CD85D00675F13 /* AviationMetarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CC7267CD85D00675F13 /* AviationMetarService.swift */; };
+		BA709CCA267CD9AD00675F13 /* AviationAirportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CC9267CD9AD00675F13 /* AviationAirportService.swift */; };
+		BA709CCC267CDA9000675F13 /* AviationSunTimesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA709CCB267CDA9000675F13 /* AviationSunTimesService.swift */; };
+		BA81CF28267BF7A500212DED /* AviatonMeteorologyAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA81CF1E267BF7A500212DED /* AviatonMeteorologyAPI.framework */; };
+		BA81CF2D267BF7A500212DED /* AviatonMeteorologyAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81CF2C267BF7A500212DED /* AviatonMeteorologyAPITests.swift */; };
+		BA81CF2F267BF7A500212DED /* AviatonMeteorologyAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = BA81CF21267BF7A500212DED /* AviatonMeteorologyAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA81CF29267BF7A500212DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA81CF15267BF7A500212DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA81CF1D267BF7A500212DED;
+			remoteInfo = AviatonMeteorologyAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA37F6E0267BFB4000377A35 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = ../../Vendor/Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		BA37F6E3267BFD0100377A35 /* Metar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metar.swift; sourceTree = "<group>"; };
+		BA37F6E8267C037F00377A35 /* Decoders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoders.swift; sourceTree = "<group>"; };
+		BA37F6EA267C070900377A35 /* metar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metar.json; sourceTree = "<group>"; };
+		BA709C9C267C87FF00675F13 /* TAF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAF.swift; sourceTree = "<group>"; };
+		BA709C9E267C883C00675F13 /* taf.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = taf.json; sourceTree = "<group>"; };
+		BA709CA8267C8E6300675F13 /* airport.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = airport.json; sourceTree = "<group>"; };
+		BA709CAA267C8EFB00675F13 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		BA709CAC267C984C00675F13 /* SunTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimes.swift; sourceTree = "<group>"; };
+		BA709CAF267C98A000675F13 /* sunTimes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sunTimes.json; sourceTree = "<group>"; };
+		BA709CB2267CA1AF00675F13 /* AviationMetarResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationMetarResponses.swift; sourceTree = "<group>"; };
+		BA709CB4267CA1F600675F13 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		BA709CB6267CAD4700675F13 /* AviationTafService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationTafService.swift; sourceTree = "<group>"; };
+		BA709CB8267CB7D000675F13 /* metars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metars.json; sourceTree = "<group>"; };
+		BA709CBD267CCCF500675F13 /* AviationTafResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationTafResponses.swift; sourceTree = "<group>"; };
+		BA709CBF267CCD2E00675F13 /* AviationSunTimesResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationSunTimesResponses.swift; sourceTree = "<group>"; };
+		BA709CC1267CCD4700675F13 /* AviationAirportResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationAirportResponses.swift; sourceTree = "<group>"; };
+		BA709CC3267CD52800675F13 /* RequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
+		BA709CC5267CD83500675F13 /* ResultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultError.swift; sourceTree = "<group>"; };
+		BA709CC7267CD85D00675F13 /* AviationMetarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationMetarService.swift; sourceTree = "<group>"; };
+		BA709CC9267CD9AD00675F13 /* AviationAirportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationAirportService.swift; sourceTree = "<group>"; };
+		BA709CCB267CDA9000675F13 /* AviationSunTimesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationSunTimesService.swift; sourceTree = "<group>"; };
+		BA81CF1E267BF7A500212DED /* AviatonMeteorologyAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AviatonMeteorologyAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA81CF21267BF7A500212DED /* AviatonMeteorologyAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AviatonMeteorologyAPI.h; sourceTree = "<group>"; };
+		BA81CF22267BF7A500212DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA81CF27267BF7A500212DED /* AviatonMeteorologyAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AviatonMeteorologyAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA81CF2C267BF7A500212DED /* AviatonMeteorologyAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatonMeteorologyAPITests.swift; sourceTree = "<group>"; };
+		BA81CF2E267BF7A500212DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA81CF1B267BF7A500212DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA37F6E1267BFB4000377A35 /* Alamofire.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA81CF24267BF7A500212DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA81CF28267BF7A500212DED /* AviatonMeteorologyAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA37F6DF267BFB1800377A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA37F6E0267BFB4000377A35 /* Alamofire.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA37F6E2267BFB6B00377A35 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				BA37F6E3267BFD0100377A35 /* Metar.swift */,
+				BA709CAC267C984C00675F13 /* SunTimes.swift */,
+				BA709C9C267C87FF00675F13 /* TAF.swift */,
+				BA709CAA267C8EFB00675F13 /* Airport.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		BA37F6E7267C01D700377A35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BA37F6E8267C037F00377A35 /* Decoders.swift */,
+				BA709CB4267CA1F600675F13 /* Results.swift */,
+				BA709CC3267CD52800675F13 /* RequestProvider.swift */,
+				BA709CC5267CD83500675F13 /* ResultError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BA709CB1267CA17900675F13 /* Responders */ = {
+			isa = PBXGroup;
+			children = (
+				BA709CB2267CA1AF00675F13 /* AviationMetarResponses.swift */,
+				BA709CC1267CCD4700675F13 /* AviationAirportResponses.swift */,
+				BA709CBF267CCD2E00675F13 /* AviationSunTimesResponses.swift */,
+				BA709CBD267CCCF500675F13 /* AviationTafResponses.swift */,
+			);
+			path = Responders;
+			sourceTree = "<group>";
+		};
+		BA81CF14267BF7A500212DED = {
+			isa = PBXGroup;
+			children = (
+				BA37F6DF267BFB1800377A35 /* Frameworks */,
+				BA81CF20267BF7A500212DED /* AviatonMeteorologyAPI */,
+				BA81CF2B267BF7A500212DED /* AviatonMeteorologyAPITests */,
+				BA81CF1F267BF7A500212DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA81CF1F267BF7A500212DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA81CF1E267BF7A500212DED /* AviatonMeteorologyAPI.framework */,
+				BA81CF27267BF7A500212DED /* AviatonMeteorologyAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA81CF20267BF7A500212DED /* AviatonMeteorologyAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BA709CB1267CA17900675F13 /* Responders */,
+				BA37F6E7267C01D700377A35 /* Helpers */,
+				BA37F6E2267BFB6B00377A35 /* DTOs */,
+				BA81CF21267BF7A500212DED /* AviatonMeteorologyAPI.h */,
+				BA81CF22267BF7A500212DED /* Info.plist */,
+				BA709CC7267CD85D00675F13 /* AviationMetarService.swift */,
+				BA709CC9267CD9AD00675F13 /* AviationAirportService.swift */,
+				BA709CB6267CAD4700675F13 /* AviationTafService.swift */,
+				BA709CCB267CDA9000675F13 /* AviationSunTimesService.swift */,
+			);
+			path = AviatonMeteorologyAPI;
+			sourceTree = "<group>";
+		};
+		BA81CF2B267BF7A500212DED /* AviatonMeteorologyAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA81CF2C267BF7A500212DED /* AviatonMeteorologyAPITests.swift */,
+				BA709CB8267CB7D000675F13 /* metars.json */,
+				BA37F6EA267C070900377A35 /* metar.json */,
+				BA709CAF267C98A000675F13 /* sunTimes.json */,
+				BA81CF2E267BF7A500212DED /* Info.plist */,
+				BA709CA8267C8E6300675F13 /* airport.json */,
+				BA709C9E267C883C00675F13 /* taf.json */,
+			);
+			path = AviatonMeteorologyAPITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA81CF19267BF7A500212DED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA81CF2F267BF7A500212DED /* AviatonMeteorologyAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA81CF1D267BF7A500212DED /* AviatonMeteorologyAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA81CF32267BF7A500212DED /* Build configuration list for PBXNativeTarget "AviatonMeteorologyAPI" */;
+			buildPhases = (
+				BA81CF19267BF7A500212DED /* Headers */,
+				BA81CF1A267BF7A500212DED /* Sources */,
+				BA81CF1B267BF7A500212DED /* Frameworks */,
+				BA81CF1C267BF7A500212DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AviatonMeteorologyAPI;
+			productName = AviatonMeteorologyAPI;
+			productReference = BA81CF1E267BF7A500212DED /* AviatonMeteorologyAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA81CF26267BF7A500212DED /* AviatonMeteorologyAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA81CF35267BF7A500212DED /* Build configuration list for PBXNativeTarget "AviatonMeteorologyAPITests" */;
+			buildPhases = (
+				BA81CF23267BF7A500212DED /* Sources */,
+				BA81CF24267BF7A500212DED /* Frameworks */,
+				BA81CF25267BF7A500212DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA81CF2A267BF7A500212DED /* PBXTargetDependency */,
+			);
+			name = AviatonMeteorologyAPITests;
+			productName = AviatonMeteorologyAPITests;
+			productReference = BA81CF27267BF7A500212DED /* AviatonMeteorologyAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA81CF15267BF7A500212DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BA81CF1D267BF7A500212DED = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					BA81CF26267BF7A500212DED = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = BA81CF18267BF7A500212DED /* Build configuration list for PBXProject "AviatonMeteorologyAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA81CF14267BF7A500212DED;
+			productRefGroup = BA81CF1F267BF7A500212DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA81CF1D267BF7A500212DED /* AviatonMeteorologyAPI */,
+				BA81CF26267BF7A500212DED /* AviatonMeteorologyAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA81CF1C267BF7A500212DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA81CF25267BF7A500212DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA709CB9267CB7D000675F13 /* metars.json in Resources */,
+				BA37F6EB267C070900377A35 /* metar.json in Resources */,
+				BA709CB0267C98A000675F13 /* sunTimes.json in Resources */,
+				BA709CA9267C8E6300675F13 /* airport.json in Resources */,
+				BA709C9F267C883C00675F13 /* taf.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA81CF1A267BF7A500212DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA709CC6267CD83500675F13 /* ResultError.swift in Sources */,
+				BA709CC2267CCD4700675F13 /* AviationAirportResponses.swift in Sources */,
+				BA37F6E9267C037F00377A35 /* Decoders.swift in Sources */,
+				BA709C9D267C87FF00675F13 /* TAF.swift in Sources */,
+				BA709CCC267CDA9000675F13 /* AviationSunTimesService.swift in Sources */,
+				BA709CB3267CA1AF00675F13 /* AviationMetarResponses.swift in Sources */,
+				BA709CB5267CA1F600675F13 /* Results.swift in Sources */,
+				BA709CB7267CAD4700675F13 /* AviationTafService.swift in Sources */,
+				BA709CC4267CD52800675F13 /* RequestProvider.swift in Sources */,
+				BA709CBE267CCCF500675F13 /* AviationTafResponses.swift in Sources */,
+				BA709CAD267C984C00675F13 /* SunTimes.swift in Sources */,
+				BA709CCA267CD9AD00675F13 /* AviationAirportService.swift in Sources */,
+				BA709CC8267CD85D00675F13 /* AviationMetarService.swift in Sources */,
+				BA37F6E4267BFD0100377A35 /* Metar.swift in Sources */,
+				BA709CAB267C8EFB00675F13 /* Airport.swift in Sources */,
+				BA709CC0267CCD2E00675F13 /* AviationSunTimesResponses.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA81CF23267BF7A500212DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA81CF2D267BF7A500212DED /* AviatonMeteorologyAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA81CF2A267BF7A500212DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA81CF1D267BF7A500212DED /* AviatonMeteorologyAPI */;
+			targetProxy = BA81CF29267BF7A500212DED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA81CF30267BF7A500212DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA81CF31267BF7A500212DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA81CF33267BF7A500212DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L3BFY9Y29C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AviatonMeteorologyAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihdogan.AviatonMeteorologyAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA81CF34267BF7A500212DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L3BFY9Y29C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AviatonMeteorologyAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihdogan.AviatonMeteorologyAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA81CF36267BF7A500212DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3BFY9Y29C;
+				INFOPLIST_FILE = AviatonMeteorologyAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihdogan.AviatonMeteorologyAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA81CF37267BF7A500212DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3BFY9Y29C;
+				INFOPLIST_FILE = AviatonMeteorologyAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihdogan.AviatonMeteorologyAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA81CF18267BF7A500212DED /* Build configuration list for PBXProject "AviatonMeteorologyAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA81CF30267BF7A500212DED /* Debug */,
+				BA81CF31267BF7A500212DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA81CF32267BF7A500212DED /* Build configuration list for PBXNativeTarget "AviatonMeteorologyAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA81CF33267BF7A500212DED /* Debug */,
+				BA81CF34267BF7A500212DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA81CF35267BF7A500212DED /* Build configuration list for PBXNativeTarget "AviatonMeteorologyAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA81CF36267BF7A500212DED /* Debug */,
+				BA81CF37267BF7A500212DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA81CF15267BF7A500212DED /* Project object */;
+}

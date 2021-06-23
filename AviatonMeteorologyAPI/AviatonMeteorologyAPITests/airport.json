@@ -1,0 +1,59 @@
+
+{
+      "city": "Santa Clara",
+      "country": {
+        "code": "US",
+        "name": "United States"
+      },
+      "elevation": {
+        "feet": 578,
+        "meters": 176
+      },
+      "geometry": {
+        "coordinates": [
+          -121.9998,
+          37.3349
+        ],
+        "type": "Point"
+      },
+      "icao": "45CA",
+      "latitude": {
+        "decimal": 37.3349,
+        "degrees": "37° 20' 5.639\" N"
+      },
+      "longitude": {
+        "decimal": -121.9998,
+        "degrees": "121° 59' 59.27\" W"
+      },
+      "name": "Kaiser Permanente Medical Center Santa Clara Heliport",
+      "position": {
+        "base": {
+          "latitude": 37.32689395,
+          "longitude": -122.02685541
+        },
+        "bearing": {
+          "from": 70,
+          "to": 250
+        },
+        "meters": 2552.4,
+        "miles": 1.4,
+        "orientation": {
+          "from": "ENE",
+          "to": "WSW"
+        }
+      },
+      "state": {
+        "code": "CA",
+        "name": "California"
+      },
+      "status": "Operational",
+      "timezone": {
+        "dst": 1,
+        "gmt": "-0700",
+        "tzid": "America/Los_Angeles",
+        "zone": "PDT"
+      },
+      "type": "Heliport"
+    }
+
+

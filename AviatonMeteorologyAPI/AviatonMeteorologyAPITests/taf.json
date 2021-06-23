@@ -1,0 +1,94 @@
+{
+      "forecast": [
+        {
+          "clouds": [
+            {
+              "code": "NSC",
+              "text": "No significant clouds"
+            }
+          ],
+          "conditions": [
+            {
+              "code": "NSW",
+              "text": "No significant weather"
+            }
+          ],
+          "timestamp": {
+            "from": "2021-06-18T06:00Z",
+            "to": "2021-06-18T15:00Z"
+          },
+          "visibility": {
+            "meters": "10,000+",
+            "meters_float": 9999,
+            "miles": "Greater than 6",
+            "miles_float": 6.21
+          },
+          "wind": {
+            "degrees": 300,
+            "speed_kph": 22,
+            "speed_kts": 12,
+            "speed_mph": 14,
+            "speed_mps": 6
+          }
+        },
+        {
+          "change": {
+            "indicator": {
+              "code": "BECMG",
+              "desc": "Conditions expected by 2021-06-18T17:00:00Z",
+              "text": "Becoming"
+            },
+            "time_becoming": "2021-06-18T17:00:00Z"
+          },
+          "clouds": [
+            {
+              "code": "NSC",
+              "text": "No significant clouds"
+            }
+          ],
+          "conditions": [
+            {
+              "code": "NSW",
+              "text": "No significant weather"
+            }
+          ],
+          "timestamp": {
+            "from": "2021-06-18T15:00Z",
+            "to": "2021-06-19T06:00Z"
+          },
+          "visibility": {
+            "meters": "10,000+",
+            "meters_float": 9999,
+            "miles": "Greater than 6",
+            "miles_float": 6.21
+          },
+          "wind": {
+            "degrees": 0,
+            "speed_kph": 4,
+            "speed_kts": 2,
+            "speed_mph": 2,
+            "speed_mps": 1
+          }
+        }
+      ],
+      "icao": "LTAT",
+      "raw_text": "TAF LTAT 180440Z 1806/1906 30012KT CAVOK BECMG 1815/1817 VRB02KT",
+      "station": {
+        "geometry": {
+          "coordinates": [
+            38.091,
+            38.435299
+          ],
+          "type": "Point"
+        },
+        "location": "Malatya, TR",
+        "name": "Malatya Erhaç Airport",
+        "type": "Airport"
+      },
+      "timestamp": {
+        "bulletin": "2021-06-18T05:00Z",
+        "from": "2021-06-18T06:00Z",
+        "issued": "2021-06-18T04:40Z",
+        "to": "2021-06-19T06:00Z"
+      }
+    }

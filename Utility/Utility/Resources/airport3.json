@@ -1,0 +1,54 @@
+
+{
+  "city": "Antakya",
+  "country": {
+    "code": "TR",
+    "name": "Turkey"
+  },
+  "elevation": {
+    "feet": 269,
+    "meters": 82
+  },
+  "geometry": {
+    "coordinates": [
+      36.282223,
+      36.362778
+    ],
+    "type": "Point"
+  },
+  "iata": "HTY",
+  "icao": "LTDA",
+  "latitude": {
+    "decimal": 36.362778,
+    "degrees": "36° 21' 46.00\" N"
+  },
+  "longitude": {
+    "decimal": 36.282223,
+    "degrees": "36° 16' 56.00\" E"
+  },
+  "name": "Hatay Airport",
+  "position": {
+    "base": {
+      "latitude": 36,
+      "longitude": 36
+    },
+    "bearing": {
+      "from": 32,
+      "to": 212
+    },
+    "meters": 47632.4,
+    "miles": 25.7,
+    "orientation": {
+      "from": "NNE",
+      "to": "SSW"
+    }
+  },
+  "status": "Operational",
+  "timezone": {
+    "dst": 0,
+    "gmt": "+0300",
+    "tzid": "Europe/Istanbul",
+    "zone": "+03"
+  },
+  "type": "Airport"
+}

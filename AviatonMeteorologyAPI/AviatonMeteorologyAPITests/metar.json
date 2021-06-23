@@ -1,0 +1,58 @@
+{
+      "barometer": {
+        "hg": 30,
+        "hpa": 1016,
+        "kpa": 101.59,
+        "mb": 1015.92
+      },
+      "clouds": [
+        {
+          "code": "CAVOK",
+          "text": "Clear skies"
+        }
+      ],
+      "dewpoint": {
+        "celsius": 6,
+        "fahrenheit": 43
+      },
+      "elevation": {
+        "feet": 2789,
+        "meters": 850
+      },
+      "flight_category": "VFR",
+      "humidity": {
+        "percent": 38
+      },
+      "icao": "LTAT",
+      "observed": "2021-06-17T22:20Z",
+      "raw_text": "LTAT 172220Z 29005KT 200V360 CAVOK 21/06 Q1016 NOSIG RMK RWY03 15004KT 050V200",
+      "station": {
+        "geometry": {
+          "coordinates": [
+            38.091,
+            38.435299
+          ],
+          "type": "Point"
+        },
+        "location": "Malatya, TR",
+        "name": "Malatya Erhaç Airport",
+        "type": "Airport"
+      },
+      "temperature": {
+        "celsius": 21,
+        "fahrenheit": 70
+      },
+      "visibility": {
+        "meters": "10,000+",
+        "meters_float": 9999,
+        "miles": "Greater than 6",
+        "miles_float": 6.21
+      },
+      "wind": {
+        "degrees": 290,
+        "speed_kph": 9,
+        "speed_kts": 5,
+        "speed_mph": 6,
+        "speed_mps": 3
+      }
+    }

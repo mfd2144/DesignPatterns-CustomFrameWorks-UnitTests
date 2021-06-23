@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Bold.ttf">
+            <string>Quicksand-Bold</string>
+        </array>
+        <array key="Quicksand-Regular.ttf">
+            <string>Quicksand-Regular</string>
+        </array>
+        <array key="Quicksand-SemiBold.ttf">
+            <string>Quicksand-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Aviation Meteology-->
+        <scene sceneID="5pz-v8-5f0">
+            <objects>
+                <viewController storyboardIdentifier="HomePageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YlI-vW-xx1" customClass="HomePageView" customModule="AviationMeteorologyVIPER" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XOh-d8-AKi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1nK-78-aB9">
+                                <rect key="frame" x="0.0" y="110" width="414" height="278"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBl-4A-quZ">
+                                        <rect key="frame" x="16" y="36.5" width="382" height="21"/>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="18"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TAF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQ5-aj-BxV">
+                                        <rect key="frame" x="16" y="5" width="33.5" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="17"/>
+                                        <color key="textColor" name="tabBar"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        </variation>
+                                    </label>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="p6A-EW-sNR">
+                                        <rect key="frame" x="167" y="99" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="SfS-Dv-w9f"/>
+                                            <constraint firstAttribute="height" constant="80" id="xL3-Qb-ePL"/>
+                                        </constraints>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" name="bodySet"/>
+                                <constraints>
+                                    <constraint firstItem="oBl-4A-quZ" firstAttribute="top" secondItem="LQ5-aj-BxV" secondAttribute="bottom" constant="10" id="3Gu-qG-5hX"/>
+                                    <constraint firstAttribute="trailing" secondItem="oBl-4A-quZ" secondAttribute="trailing" constant="16" id="80d-UW-O8J"/>
+                                    <constraint firstItem="p6A-EW-sNR" firstAttribute="centerY" secondItem="1nK-78-aB9" secondAttribute="centerY" id="EAS-pM-jQs"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LQ5-aj-BxV" secondAttribute="trailing" constant="20" symbolic="YES" id="UNk-X6-vEk"/>
+                                    <constraint firstItem="LQ5-aj-BxV" firstAttribute="top" secondItem="1nK-78-aB9" secondAttribute="top" constant="5" id="bEs-aA-9Gl"/>
+                                    <constraint firstItem="oBl-4A-quZ" firstAttribute="leading" secondItem="1nK-78-aB9" secondAttribute="leading" constant="16" id="cnR-X9-tid"/>
+                                    <constraint firstItem="LQ5-aj-BxV" firstAttribute="leading" secondItem="1nK-78-aB9" secondAttribute="leading" constant="16" id="jfm-QJ-kUD"/>
+                                    <constraint firstAttribute="bottom" secondItem="oBl-4A-quZ" secondAttribute="bottom" priority="250" constant="10" id="rbF-jN-TJ5"/>
+                                    <constraint firstItem="p6A-EW-sNR" firstAttribute="centerX" secondItem="1nK-78-aB9" secondAttribute="centerX" id="xy1-mq-7nn"/>
+                                </constraints>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="80d-UW-O8J"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <searchBar contentMode="redraw" placeholder="Enter ICAO Code" translatesAutoresizingMaskIntoConstraints="NO" id="SdC-oi-r2c">
+                                <rect key="frame" x="0.0" y="59" width="414" height="51"/>
+                                <color key="backgroundColor" name="searchBAr"/>
+                                <color key="barTintColor" name="bodySet"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="search"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YlI-vW-xx1" id="3AR-k3-y5b"/>
+                                </connections>
+                            </searchBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7qW-Uc-AyV">
+                                <rect key="frame" x="0.0" y="388" width="414" height="277.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="METAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fI-7l-N2e">
+                                        <rect key="frame" x="16" y="5" width="56" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" name="tabBar"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="Quicksand-Bold" family="Quicksand" pointSize="17"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1j-dY-p2q">
+                                        <rect key="frame" x="16" y="35" width="382" height="84"/>
+                                        <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="18"/>
+                                        </variation>
+                                    </label>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="OVQ-hq-6AS">
+                                        <rect key="frame" x="156" y="127" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="MGe-CR-E67"/>
+                                            <constraint firstAttribute="width" constant="80" id="RF8-7I-I3U"/>
+                                        </constraints>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" name="bodySet"/>
+                                <constraints>
+                                    <constraint firstItem="OVQ-hq-6AS" firstAttribute="leading" secondItem="7qW-Uc-AyV" secondAttribute="leading" constant="156" id="67W-cd-Vly"/>
+                                    <constraint firstItem="OVQ-hq-6AS" firstAttribute="top" secondItem="u1j-dY-p2q" secondAttribute="bottom" constant="8" id="6fl-xN-JNr"/>
+                                    <constraint firstAttribute="bottom" secondItem="u1j-dY-p2q" secondAttribute="bottom" priority="250" constant="20" id="6wR-8V-bGa"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6fI-7l-N2e" secondAttribute="trailing" constant="20" symbolic="YES" id="HMu-aN-1E6"/>
+                                    <constraint firstItem="6fI-7l-N2e" firstAttribute="leading" secondItem="7qW-Uc-AyV" secondAttribute="leading" constant="16" id="IdO-sh-B7Z"/>
+                                    <constraint firstItem="u1j-dY-p2q" firstAttribute="leading" secondItem="7qW-Uc-AyV" secondAttribute="leading" constant="16" id="KO1-q7-Fuv"/>
+                                    <constraint firstAttribute="bottom" secondItem="OVQ-hq-6AS" secondAttribute="bottom" constant="70.5" id="RWH-zG-TTH"/>
+                                    <constraint firstItem="6fI-7l-N2e" firstAttribute="top" secondItem="7qW-Uc-AyV" secondAttribute="top" constant="5" id="pJQ-ts-aJO"/>
+                                    <constraint firstAttribute="trailing" secondItem="u1j-dY-p2q" secondAttribute="trailing" constant="16" id="uHA-nj-6rI"/>
+                                    <constraint firstItem="u1j-dY-p2q" firstAttribute="top" secondItem="6fI-7l-N2e" secondAttribute="bottom" constant="10" id="zvE-FA-f7h"/>
+                                </constraints>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="uHA-nj-6rI"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNw-Bm-yex">
+                                <rect key="frame" x="137" y="680.5" width="140" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="bKN-dM-o4z"/>
+                                    <constraint firstAttribute="height" constant="40" id="ld0-gD-rLN"/>
+                                    <constraint firstAttribute="height" constant="40" id="pec-Kv-yqe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Quicksand-SemiBold" family="Quicksand" pointSize="20"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Decoded">
+                                    <color key="titleColor" name="buttonText"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ld0-gD-rLN"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ld0-gD-rLN"/>
+                                        <exclude reference="pec-Kv-yqe"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="deodedButtonPressed:" destination="YlI-vW-xx1" eventType="touchUpInside" id="kXy-R1-fKA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dT6-v4-DrU"/>
+                        <color key="backgroundColor" name="bodySet"/>
+                        <constraints>
+                            <constraint firstItem="1nK-78-aB9" firstAttribute="height" secondItem="XOh-d8-AKi" secondAttribute="height" multiplier="0.31" id="1Fl-tU-4Ou"/>
+                            <constraint firstItem="7qW-Uc-AyV" firstAttribute="top" secondItem="SdC-oi-r2c" secondAttribute="bottom" constant="5" id="3Iz-Bx-lqK"/>
+                            <constraint firstItem="7qW-Uc-AyV" firstAttribute="top" secondItem="1nK-78-aB9" secondAttribute="bottom" id="5HV-88-JEb"/>
+                            <constraint firstItem="1nK-78-aB9" firstAttribute="top" secondItem="SdC-oi-r2c" secondAttribute="bottom" id="Dpk-8f-4MB"/>
+                            <constraint firstItem="7qW-Uc-AyV" firstAttribute="width" secondItem="XOh-d8-AKi" secondAttribute="width" multiplier="0.5" id="ERr-xN-k42"/>
+                            <constraint firstItem="JNw-Bm-yex" firstAttribute="top" secondItem="7qW-Uc-AyV" secondAttribute="bottom" constant="5" id="FKh-Bh-shJ">
+                                <variation key="heightClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="dT6-v4-DrU" firstAttribute="bottom" secondItem="JNw-Bm-yex" secondAttribute="bottom" constant="10" id="KIn-JY-MtY"/>
+                            <constraint firstItem="7qW-Uc-AyV" firstAttribute="height" secondItem="XOh-d8-AKi" secondAttribute="height" multiplier="0.48" id="L5a-b3-fuc"/>
+                            <constraint firstAttribute="trailing" secondItem="1nK-78-aB9" secondAttribute="trailing" id="LSX-9z-B6s"/>
+                            <constraint firstAttribute="trailing" secondItem="7qW-Uc-AyV" secondAttribute="trailing" id="MWa-sn-nMA"/>
+                            <constraint firstItem="1nK-78-aB9" firstAttribute="height" secondItem="XOh-d8-AKi" secondAttribute="height" multiplier="0.48" id="Rjh-iW-NpJ"/>
+                            <constraint firstItem="1nK-78-aB9" firstAttribute="width" secondItem="XOh-d8-AKi" secondAttribute="width" multiplier="0.5" id="SOi-u3-mSv"/>
+                            <constraint firstItem="JNw-Bm-yex" firstAttribute="centerX" secondItem="XOh-d8-AKi" secondAttribute="centerX" id="TFO-1X-GcL"/>
+                            <constraint firstItem="SdC-oi-r2c" firstAttribute="top" secondItem="dT6-v4-DrU" secondAttribute="top" id="VWO-iJ-xpR"/>
+                            <constraint firstItem="7qW-Uc-AyV" firstAttribute="leading" secondItem="XOh-d8-AKi" secondAttribute="leading" id="Yj6-iE-hUz"/>
+                            <constraint firstItem="SdC-oi-r2c" firstAttribute="leading" secondItem="dT6-v4-DrU" secondAttribute="leading" id="biP-1y-9D4"/>
+                            <constraint firstItem="dT6-v4-DrU" firstAttribute="trailing" secondItem="SdC-oi-r2c" secondAttribute="trailing" id="kW6-xH-vN9"/>
+                            <constraint firstItem="JNw-Bm-yex" firstAttribute="top" secondItem="7qW-Uc-AyV" secondAttribute="bottom" constant="15" id="o8k-5l-GqJ"/>
+                            <constraint firstItem="SdC-oi-r2c" firstAttribute="top" secondItem="dT6-v4-DrU" secondAttribute="top" constant="15" id="tW2-aq-Cti"/>
+                            <constraint firstItem="7qW-Uc-AyV" firstAttribute="height" secondItem="XOh-d8-AKi" secondAttribute="height" multiplier="0.31" id="wIH-JA-hxg"/>
+                            <constraint firstItem="1nK-78-aB9" firstAttribute="leading" secondItem="XOh-d8-AKi" secondAttribute="leading" id="yLt-iY-Hae"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KIn-JY-MtY"/>
+                                <exclude reference="VWO-iJ-xpR"/>
+                                <exclude reference="Rjh-iW-NpJ"/>
+                                <exclude reference="SOi-u3-mSv"/>
+                                <exclude reference="3Iz-Bx-lqK"/>
+                                <exclude reference="ERr-xN-k42"/>
+                                <exclude reference="L5a-b3-fuc"/>
+                                <exclude reference="FKh-Bh-shJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="KIn-JY-MtY"/>
+                                <include reference="VWO-iJ-xpR"/>
+                                <exclude reference="tW2-aq-Cti"/>
+                                <exclude reference="1Fl-tU-4Ou"/>
+                                <exclude reference="LSX-9z-B6s"/>
+                                <include reference="Rjh-iW-NpJ"/>
+                                <include reference="SOi-u3-mSv"/>
+                                <include reference="3Iz-Bx-lqK"/>
+                                <exclude reference="5HV-88-JEb"/>
+                                <include reference="ERr-xN-k42"/>
+                                <include reference="L5a-b3-fuc"/>
+                                <exclude reference="Yj6-iE-hUz"/>
+                                <exclude reference="wIH-JA-hxg"/>
+                                <exclude reference="FKh-Bh-shJ"/>
+                                <exclude reference="o8k-5l-GqJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Aviation Meteology" id="XCp-0R-3ej"/>
+                    <connections>
+                        <outlet property="decodeButton" destination="JNw-Bm-yex" id="vzV-Rg-Ind"/>
+                        <outlet property="metarActivity" destination="OVQ-hq-6AS" id="VK1-BK-FsH"/>
+                        <outlet property="metarDecodedLabel" destination="u1j-dY-p2q" id="Sib-vs-ceH"/>
+                        <outlet property="searchBar" destination="SdC-oi-r2c" id="6xP-yW-6Bz"/>
+                        <outlet property="tafActivity" destination="p6A-EW-sNR" id="d54-MK-gZi"/>
+                        <outlet property="tafDecodedLabel" destination="oBl-4A-quZ" id="MJK-vp-UEi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IqO-Dq-Un3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2988" y="1610.6446776611695"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="bodySet">
+            <color red="0.96100002527236938" green="0.97299998998641968" blue="0.98000001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="buttonText">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="searchBAr">
+            <color red="0.96100002527236938" green="0.97299998998641968" blue="0.98000001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tabBar">
+            <color red="0.39599999785423279" green="0.46700000762939453" blue="0.52499997615814209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

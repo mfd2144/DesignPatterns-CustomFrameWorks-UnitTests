@@ -1,0 +1,57 @@
+
+    {
+      "forecast": [
+        {
+          "clouds": [
+            {
+              "code": "NSC",
+              "text": "No significant clouds"
+            }
+          ],
+          "conditions": [
+            {
+              "code": "NSW",
+              "text": "No significant weather"
+            }
+          ],
+          "timestamp": {
+            "from": "2021-06-22T18:00Z",
+            "to": "2021-06-23T03:00Z"
+          },
+          "visibility": {
+            "meters": "10,000+",
+            "meters_float": 9999,
+            "miles": "Greater than 6",
+            "miles_float": 6.21
+          },
+          "wind": {
+            "degrees": 210,
+            "speed_kph": 15,
+            "speed_kts": 8,
+            "speed_mph": 9,
+            "speed_mps": 4
+          }
+        }
+      ],
+      "icao": "LTAO",
+      "raw_text": "TAF LTAO 221640Z 2218/2303 21008KT CAVOK",
+      "station": {
+        "geometry": {
+          "coordinates": [
+            38.253899,
+            38.353699
+          ],
+          "type": "Point"
+        },
+        "location": "Malatya, TR",
+        "name": "Malatya Tulga Airport",
+        "type": "Airport"
+      },
+      "timestamp": {
+        "bulletin": "2021-06-22T17:04Z",
+        "from": "2021-06-22T18:00Z",
+        "issued": "2021-06-22T16:40Z",
+        "to": "2021-06-23T03:00Z"
+      }
+    }
+ 

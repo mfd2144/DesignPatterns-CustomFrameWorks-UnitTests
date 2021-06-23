@@ -1,0 +1,64 @@
+
+    {
+      "barometer": {
+        "hg": 30,
+        "hpa": 1016,
+        "kpa": 101.59,
+        "mb": 1015.92
+      },
+      "clouds": [
+        {
+          "base_feet_agl": 4000,
+          "base_meters_agl": 1219,
+          "code": "SCT",
+          "feet": 4000,
+          "meters": 1219,
+          "text": "Scattered"
+        }
+      ],
+      "dewpoint": {
+        "celsius": 14,
+        "fahrenheit": 57
+      },
+      "elevation": {
+        "feet": 3123,
+        "meters": 952
+      },
+      "flight_category": "VFR",
+      "humidity": {
+        "percent": 88
+      },
+      "icao": "LTAC",
+      "observed": "2021-06-22T17:50Z",
+      "raw_text": "LTAC 221750Z VRB01KT 9999 SCT040 16/14 Q1016 NOSIG RMK RWY21L 03001KT RWY03L VRB01KT RWY21R 03001KT",
+      "station": {
+        "geometry": {
+          "coordinates": [
+            32.995098,
+            40.128101
+          ],
+          "type": "Point"
+        },
+        "location": "Ankara, TR",
+        "name": "Esenboğa International Airport",
+        "type": "Airport"
+      },
+      "temperature": {
+        "celsius": 16,
+        "fahrenheit": 61
+      },
+      "visibility": {
+        "meters": "10,000+",
+        "meters_float": 9999,
+        "miles": "Greater than 6",
+        "miles_float": 6.21
+      },
+      "wind": {
+        "degrees": 0,
+        "speed_kph": 2,
+        "speed_kts": 1,
+        "speed_mph": 1,
+        "speed_mps": 1
+      }
+    }
+  

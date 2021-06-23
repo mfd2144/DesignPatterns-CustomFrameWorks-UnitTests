@@ -1,0 +1,79 @@
+
+    {
+      "barometer": {
+        "hg": 30,
+        "hpa": 1016,
+        "kpa": 101.59,
+        "mb": 1015.92
+      },
+      "clouds": [
+        {
+          "base_feet_agl": 2500,
+          "base_meters_agl": 762,
+          "code": "SCT",
+          "feet": 2500,
+          "meters": 762,
+          "text": "Scattered"
+        },
+        {
+          "base_feet_agl": 3300,
+          "base_meters_agl": 1006,
+          "code": "SCT",
+          "feet": 3300,
+          "meters": 1006,
+          "text": "Scattered"
+        }
+      ],
+      "conditions": [
+        {
+          "code": "TSRA",
+          "prefix": "-",
+          "text": "Light Thunderstorm, Rain"
+        }
+      ],
+      "dewpoint": {
+        "celsius": 15,
+        "fahrenheit": 59
+      },
+      "elevation": {
+        "feet": 2687,
+        "meters": 819
+      },
+      "flight_category": "VFR",
+      "humidity": {
+        "percent": 94
+      },
+      "icao": "LTAB",
+      "observed": "2021-06-22T13:14Z",
+      "raw_text": "LTAB 221314Z 07009KT 9999 -TSRA SCT025CB SCT033 16/15 Q1016 RETSRA BECMG TL1410 NSW RMK RWY06 05010KT",
+      "station": {
+        "geometry": {
+          "coordinates": [
+            32.740799,
+            39.935001
+          ],
+          "type": "Point"
+        },
+        "location": "Ankara, TR",
+        "name": "Güvercinlik Airport",
+        "type": "Airport"
+      },
+      "temperature": {
+        "celsius": 16,
+        "fahrenheit": 61
+      },
+      "visibility": {
+        "meters": "10,000+",
+        "meters_float": 9999,
+        "miles": "Greater than 6",
+        "miles_float": 6.21
+      },
+      "wind": {
+        "degrees": 70,
+        "speed_kph": 17,
+        "speed_kts": 9,
+        "speed_mph": 10,
+        "speed_mps": 5
+      }
+    }
+  
